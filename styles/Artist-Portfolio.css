@@ -211,7 +211,7 @@ p, span {
   width: fit-content;
 }
 
-.row.event .col-12 .display-4 {
+.container-fluid h1 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
@@ -603,7 +603,7 @@ a {
   height: 45.5625vw;
 }
 
-.row.event .col-12 .display-4 {
+.container-fluid h1  {
   font-size: 40.04px;
   line-height: 61px;
 
@@ -760,7 +760,7 @@ a {
   margin-left: 0;
 }
 
-.row.event .col-12 .display-4 {
+.container-fluid h1 {
   font-size: 40.04px;
   line-height: 61px;
   padding-left: 16px;
@@ -920,7 +920,7 @@ footer .container.mt-4 {
 
 
 @media screen and (max-width: 576px) {
-  .row.event .col-12 .display-4 {
+  .container-fluid h1  {
     font-size: 30.04px;
     line-height: 41px;
     padding-left: 0;
@@ -967,10 +967,10 @@ footer .container.mt-4 {
   padding-top: 6px;
 }
 .carousel-inner .col-md-6 h5 {
-  font-size: 25.83px;
+  font-size: 20.83px;
   line-height: 30px;
 }
-.row.event .col-12 .display-4 {
+.container-fluid h1 {
   font-size: 25.04px;
   line-height: 31px;
 }
