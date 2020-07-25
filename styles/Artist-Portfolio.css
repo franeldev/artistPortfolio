@@ -219,6 +219,13 @@ p, span {
   /* identical to box height */
   text-transform: capitalize;
   color: #020202;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#frames {
+  width: 100%;
+  margin-bottom: 2%;
 }
 
 

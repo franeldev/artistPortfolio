@@ -11,7 +11,7 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="styles/Artist-Portfolio.css">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="aos/dist/aos.css">
   <title>Artist-Portfolio</title>
 </head>
 <body> 
@@ -109,7 +109,7 @@
     <div id="frames" class="container-fluid">
     <div class="row event">
         <div class="col-12">
-            <h1 class="display-4 text-left">Frames</h1>
+            <h1 data-aos="fade-down" data-aos-duration="2000" class="display-4 text-left">Frames</h1>
         </div>
     </div>
     </div>
@@ -388,5 +388,11 @@
     crossorigin="anonymous"></script>
     
     <!-- AOS JS -->
+    <script src="aos/dist/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 </body>
 </html>
