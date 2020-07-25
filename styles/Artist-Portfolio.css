@@ -1,0 +1,1002 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 55px;
+  padding-left: 55px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid.shadow-sm {
+  padding: 8px 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+p, span {
+  flood-color: #000;
+}
+
+ */
+
+
+/* .navbar {
+  padding: .5rem 3.2rem;
+} */
+
+.logo img {
+  width: 90px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #000000;
+  padding-bottom: 5px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  -webkit-text-stroke: .2px black;
+  color: transparent !important;
+  -webkit-text-fill-color: #F7931E;
+  border-bottom: 1px solid #F7931E;
+  padding-bottom: 2px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+
+.nav-item .nav-link:active {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 2px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 1rem;
+}
+
+.menu li {
+  padding-left: 1rem;
+}
+
+
+
+
+.TairoImg1 {
+  padding-top: 3.5%;
+  width: 100% !important;
+  height: 48vw !important;
+  z-index: -1 !important;
+}
+.TairoImg1 .row {
+  margin-left: 15px;
+}
+.TairoImg1 .row .sec1 {
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    position: absolute;
+    max-width: 90%;
+    left: 7%;
+    z-index: 10;
+}
+.TairoImg1 span span {
+  color: #ffffff;
+}
+ .TairoImg1 h2
+{
+  padding-top: 18%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8.5vw;
+  line-height: 120px;
+  /* identical to box height */
+  color: #000000;
+}
+ .TairoImg1 p
+{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 4px;
+  color: #000000;
+  padding-left: 6px;
+}
+
+.col-md-6.TairoImg
+{
+  /* bottom: -4.5rem; */
+  position: absolute;
+  max-width: 50% !important;
+  flex: 0 0 50%;
+  right: 7%;
+  z-index: 1;
+}
+
+.col-lg-6.TairoImg img
+{
+  width: 100%;
+  background: url(../img/Tairo.svg), #C4C4C4;
+  position: absolute;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.row.padding {
+  padding-top: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+.container-fluid.pt {
+  position: relative;
+  width: 100%;
+  background: #F7931E;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  float: left;
+  height: 44.5625vw;
+  bottom: 2vw;
+  padding-bottom: 40px;
+}
+
+.jumbotron
+{
+  position: relative;
+  background: #F7931E;
+  color: #fff;
+  height: 42.5625vw;
+  border-radius: 0;    
+  margin: 0; 
+  margin-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.container-fluid.pt h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.051875vw;
+  line-height: 52px;
+  /* or 106% */
+  text-transform: capitalize;
+  color: #020202;
+}
+
+
+.container-fluid.pt p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 27px;
+  /* or 169% */
+  color: #050505;
+}
+.container-fluid.pt a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height, or 135% */
+  color: #020202;
+}
+
+.row.event {
+  position: relative;
+  padding-top: 86px;
+}
+
+.row.event .display-4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61.04px;
+  line-height: 61px;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #020202;
+}
+
+
+/* Carousel */
+.carousel-inner .col-md-6 h5 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48.83px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #020202;
+}
+
+.carousel-inner .col-md-6 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  /* or 169% */
+  color: #333333;
+}
+
+.carousel-inner .col-md-6 a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height, or 135% */
+  color: #AA2072;
+}
+
+.carousel-indicators li {
+  /* width: 16px;
+  height: 16px; */
+  block-size: 11px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: #E1E1E1;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background: #020202;
+}
+.carousel-indicators li:active {
+  background: #E1E1E1;
+}
+
+.carousel-indicators li:focus {
+  background: #E1E1E1;
+}
+
+#carouselExampleIndicators {
+  padding-bottom: 6%;
+  margin-bottom: 5%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+    height: 12%;
+    min-inline-size: -webkit-fill-available;
+}
+
+/* .carousel-control-next-icon:hover, .carousel-control-prev-icon:hover {
+  fill: #DA4567;
+} */
+
+
+.carousel-control-prev-icon {
+  background-image: url("../img/chevronleft.svg");
+  margin-right: 25%;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/chevronright.svg");
+  margin-left: 25%;
+}
+
+.carousel-inner {
+  padding: 0 10%;
+}
+
+.img-fluid.euro {
+    width: 100%;
+    height: auto;
+}
+.btn-primary
+{
+  background: #AA2072;
+  border: unset;
+  border-radius: 10px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 32px;
+  margin-bottom: 10%;
+}
+.btn-primary:hover
+{
+  background: #AA2072;
+  border: 1px solid #AA2072;
+}
+
+
+
+
+.row.text-left h5.align-left {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.351875vw;
+  line-height: 49px;
+  /* identical to box height */
+  color: #AA2072;
+}
+
+.row.text-left p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #424242;
+}
+
+.row.text-left p span svg {
+  margin-bottom: 1.4%;
+}
+
+.row.text-left .col-md-6 {
+  padding-bottom: 50px;
+}
+
+
+
+
+
+/* FORM */
+
+.form--wrap {
+  position: relative;
+  width: 100%;
+  height: 722px;
+  left: 0px;
+  top: 0px;
+  background: #F5F5F5;
+  padding-top: 4rem;
+}
+
+.form--case {
+  padding: 1% 15% 5%;
+}
+
+.contact-item__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61.04px;
+  line-height: 61px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.contact-item__num {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #333333;
+}
+
+.form-item--input {
+  width: 24.825vw;
+  box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */  
+  color: #303030;
+}
+.form--case .text-center.align-self-center {
+  padding-bottom: 50px;
+}
+
+.form-control {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #9A9A9A;
+  border: 1px solid #7C7C7C;
+}
+
+textarea.form-control {
+  height: 156px;
+  background: #FFFFFF;
+  border: 1px solid #7C7C7C;
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+}
+
+.form-group.w-100 {
+  padding: 20px 0;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(170,32,114,.14);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f7931e59;
+  border-color: #f7931e6e;
+}
+
+.contacticon {
+  position: absolute;
+  width: 21.98125vw;
+  height: 16.963125vw;
+  right: 0px;
+  top: 8.16px;
+  /* transform: rotate(9.98deg); */
+  padding-right: 0;
+}
+
+
+
+
+
+/* FOOTER */
+footer.bg-fml-primary {
+  height: 34.5em;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background: #111111;
+  padding-top: 50px;
+}
+
+.footer-li h5 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.footer-li h5 a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+a {
+  color: white;
+}
+
+.nav.flex-column p, .nav.flex-column a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+  /* or 212% */
+  color: #FFFFFF;
+}
+
+.input-group-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(255, 255, 255, 0.5);
+  background-color: unset;
+  border: 1px solid #FFFFFF;
+  border-radius: unset;
+  cursor: pointer;
+}
+
+.input-group.md-form .form-control {
+  padding: 1.175rem .75rem !important;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  background-color: unset;
+  border-radius: unset;
+}
+.footerlogo {
+  align-self: center;
+}
+
+.nav.bye li, .nav.bye a {
+  padding-left: 7rem;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #8C8C8C;
+}
+
+.row.bye {
+  justify-content: center !important;
+}
+
+.container.mt-4.mt-md-3.text-light {
+  margin-top: 5rem !important;
+}
+
+
+
+/* Responsive styling */
+@media screen and (max-width: 992px) {
+    
+/* .order-1 {
+  order: 2;
+}
+.order-2 {
+  order: 1;
+} */
+.container-fluid.pt h4 {
+  font-size: 2.551875vw;
+  line-height: 32px;
+}
+
+.container-fluid.pt a {
+  font-size: 17px;
+  line-height: 17px;
+}
+.TairoImg1 h2 {
+  font-size: 8.35vw;
+  line-height: 80px;
+}
+
+.container-fluid.pt {
+  height: 45.5625vw;
+}
+
+.row.event .display-4 {
+  font-size: 40.04px;
+  line-height: 61px;
+
+}
+
+.carousel-inner .col-md-6 h5 {
+  font-size: 38.83px;
+  line-height: 40px;
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/chevronleft.svg);
+  margin-right: 10%;
+}
+.carousel-control-next-icon {
+  background-image: url(../img/chevronright.svg);
+  margin-left: 10%;
+}
+
+.carousel-indicators li {
+  block-size: 8px;
+}
+
+#carouselExampleIndicators {
+  padding-bottom: 11%;
+  margin-bottom: 5%;
+}
+.row.event.exhibitions {
+  position: relative;
+  padding-top: 0;
+}
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+  footer.bg-fml-primary {
+    height: 50.5em;
+    padding-top: 50px;
+}
+.nav.bye li, .nav.bye a {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.col-md-6.TairoImg {
+  /* bottom: -4.5rem; */
+  position: absolute;
+  max-width: 100% !important;
+  flex: 0 0 100%;
+  right: 0;
+  padding: 0;
+}
+.col-md-6.TairoImg img {
+  width: -webkit-fill-available;
+  max-width: 100%;
+  height: auto;
+}
+.TairoImg1 {
+  padding-top: 0;
+  width: 100% !important;
+  height: 108vw !important;
+  z-index: -1 !important;
+}
+.TairoImg1 h2 {
+  padding-top: 45.5%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 76px;
+  line-height: 76px;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: inherit;
+  color: #FFFFFF;
+  padding-left: 17.8%;
+  width: 90%;
+}
+.TairoImg1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+  padding-left: 25%;
+  width: 90%;
+}
+
+.container-fluid.pt .col-xs-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+.container-fluid.pt .col-md-6 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 3rem;
+}
+
+.container-fluid.pt {
+  height: 42.5625em !important;
+  bottom: 2vw;
+  margin-bottom: 48px;
+}
+
+.container-fluid.pt h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #020202;
+}
+
+.row.padding {
+  padding-top: 45px;
+}
+
+.container-fluid.pt p {
+  font-size: 14px;
+  line-height: 27px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: unset;
+  margin-right: 0;
+  padding: 0;
+}
+
+.carousel-item .col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.event .display-4 {
+  font-size: 40.04px;
+  line-height: 61px;
+  padding-left: 16px;
+}
+
+.carousel-item .col-md-6 h5,
+.carousel-item .col-md-6 p,
+.carousel-item .col-md-6 a {
+  padding-left: 16px;
+}
+
+.contact-item__title {
+  font-size: 40.04px;
+  line-height: 51px;
+  padding-top: 12%;
+}
+.form-item--input {
+  width: 24.825vw;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.form--wrap {
+  height: 922px;
+  padding-top: 4rem;
+}
+
+.form--wrap > .form--case > .form-field > .container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form-item--input {
+  width: -webkit-fill-available;
+}
+
+.form--case {
+  padding: 1% 5% 5%;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+  
+  .nav-link {
+    display: inline-flex;
+    padding: .5rem 1rem;
+  }
+
+    .nav-item {
+      place-content: center;
+      vertical-align: middle;
+      margin: 0 auto;
+      background: black;
+      width: 100%;
+      display: flex;
+      padding-bottom: 3px;
+      padding-top: 3px;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+      margin-right: 0;
+      margin-left: 0;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    padding-bottom: 5px;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    padding-bottom: 3px;
+    margin-bottom: 3rem;
+}
+
+    .navbar-nav > .nav-item > .nav-link.active {
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
+      color: #F7931E;
+      padding-bottom: 3px;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+  }
+  
+  .order-1 {
+    order: 2;
+  }
+
+  .order-2 {
+    order: 3;
+  }
+  
+  .order-3 {
+    order: 4;
+  }
+
+  .order-4 {
+    order: 1;
+}
+
+footer.bg-fml-primary {
+  height: 60.5em;
+  padding-top: 220px;
+  position: relative;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.footerlogo {
+  align-self: flex-start;
+  position: absolute;
+  top: 9%;
+}
+
+.footer-li.container,
+footer .container.mt-4 {
+  max-width: 100%;
+}
+
+.nav.flex-column p {
+  margin-bottom: unset;
+}
+
+.order-2 {
+  order: 3;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+
+}
+
+ .nav.bye a {
+  display: flex;
+  flex: 0 0 100%;
+  position: unset;
+  max-width: 100%;
+  padding-right: 0 !important;
+  padding-bottom: 1rem;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .row.event .display-4 {
+    font-size: 30.04px;
+    line-height: 41px;
+    padding-left: 0;
+}
+
+.row.event .col-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form--wrap {
+  height: 822px;
+  padding-top: 4rem;
+}
+
+
+}
+
+@media screen and (max-width: 450px) {
+  .TairoImg1 h2 {
+    padding-top: 40.5%;
+    padding-left: 7.8%;
+    width: 100%;
+}   
+
+.TairoImg1 p {
+  padding-left: 10%;
+  width: 80%;
+  padding-top: 5%;
+}
+
+.container-fluid.pt h4 {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.container-fluid.pt a {
+  font-size: 14px;
+}
+.container-fluid.pt p {
+  font-size: 12px;
+}
+.row.event {
+  padding-top: 6px;
+}
+.carousel-inner .col-md-6 h5 {
+  font-size: 25.83px;
+  line-height: 30px;
+}
+.row.event .display-4 {
+  font-size: 25.04px;
+  line-height: 31px;
+}
+
+.carousel-inner .col-md-6 p {
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.carousel-inner .col-md-6 a {
+  font-size: 16px;
+}
+.carousel-indicators li {
+  block-size: .2px;
+  width: 20px;
+}
+
+.btn-primary {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.row.text-left .col-md-6 {
+  padding-bottom: 50px;
+  padding-left: unset;
+  padding-right: unset;
+}
+.row.text-left h5.align-left {
+  font-size: 18px;
+  line-height: 49px;
+  padding: 0 !important;
+  margin-bottom: 0;
+}
+
+.row.text-left p {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+
+}
+
+@media screen and (max-width: 380px) {
+
+.TairoImg1 p {
+  padding-left: 10%;
+  width: 100%;
+}
+
+
+}
