@@ -643,6 +643,14 @@ a {
 
 }
 
+
+@media screen and (max-width: 805px) {
+  .nav.bye li, .nav.bye a {
+    padding-left: .2rem;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
 
 .col-md-6.TairoImg {
