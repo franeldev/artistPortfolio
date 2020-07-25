@@ -208,9 +208,10 @@ p, span {
 .row.event {
   position: relative;
   padding-top: 86px;
+  width: fit-content;
 }
 
-.row.event .display-4 {
+.row.event .col-12 .display-4 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
@@ -602,7 +603,7 @@ a {
   height: 45.5625vw;
 }
 
-.row.event .display-4 {
+.row.event .col-12 .display-4 {
   font-size: 40.04px;
   line-height: 61px;
 
@@ -759,7 +760,7 @@ a {
   margin-left: 0;
 }
 
-.row.event .display-4 {
+.row.event .col-12 .display-4 {
   font-size: 40.04px;
   line-height: 61px;
   padding-left: 16px;
@@ -919,7 +920,7 @@ footer .container.mt-4 {
 
 
 @media screen and (max-width: 576px) {
-  .row.event .display-4 {
+  .row.event .col-12 .display-4 {
     font-size: 30.04px;
     line-height: 41px;
     padding-left: 0;
@@ -969,7 +970,7 @@ footer .container.mt-4 {
   font-size: 25.83px;
   line-height: 30px;
 }
-.row.event .display-4 {
+.row.event .col-12 .display-4 {
   font-size: 25.04px;
   line-height: 31px;
 }
