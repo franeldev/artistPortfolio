@@ -57,7 +57,7 @@ p, span {
   margin-left: .5rem;
 }
 
-.nav-item .nav-link:active {
+.nav-item .nav-link.active {
 	border-bottom: 1px solid #000000;
 	padding-bottom: 2px;
 	padding-left: 0;
@@ -636,10 +636,10 @@ a {
     height: 50.5em;
     padding-top: 50px;
 }
-.nav.bye li, .nav.bye a {
+/* .nav.bye li, .nav.bye a {
   padding-left: 0;
   padding-right: 1.5rem;
-}
+} */
 
 }
 
@@ -785,6 +785,11 @@ a {
   padding: 1% 5% 5%;
 }
 
+.nav.bye li {
+  padding-left: 0;
+  padding-right: 1.5rem;
+  display: contents;
+}
 
 
 
@@ -854,7 +859,7 @@ a {
 }
 
 footer.bg-fml-primary {
-  height: 60.5em;
+  height: 65.5em;
   padding-top: 220px;
   position: relative;
   padding-right: 16px;
@@ -890,6 +895,7 @@ footer .container.mt-4 {
   max-width: 100%;
   padding-right: 0 !important;
   padding-bottom: 1rem;
+  padding-left: 0;
 }
 
 
