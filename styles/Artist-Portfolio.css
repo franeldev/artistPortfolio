@@ -6,6 +6,10 @@
 
 }
 
+#butn3 {
+  display: table !important;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 55px;
@@ -139,9 +143,95 @@ p, span {
 
 
 
+.main-button {
+	font-size: 0.9rem;
+	background-color: var(--primary-color);
+	border-radius: 40px;
+	padding: 0.8rem 1.8rem;
+	font-weight: 600;
+	color: var(--background-black);
+	animation-name: heartbeat;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	text-decoration: none;
+	transition: all 0.6s;
+}
+.main-button:hover,
+.main-button:active,
+.main-button:focus {
+	background-color: #ffc800;
+	transform: translateY(-4px);
+	text-decoration: none;
+	color: var(--background-black);
+	transition: all 0.6s;
+	outline: none;
+}
+.modal-header {
+  padding: 1rem 1rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.modal-body {
+  padding-top: 0;
+}
 
+.modal-dialog {
+  max-width: 90%;
+  margin: 1.75rem auto;
+}
+.modal {
+  overflow-y: auto;
+}
+.modal-dialog {
+  position:absolute;
+  top:50% !important;
+  transform: translate(0, -50%) !important;
+  -ms-transform: translate(0, -50%) !important;
+  -webkit-transform: translate(0, -50%) !important;
+  margin:auto 5%;
+  width:90%;
+  height:80%;
+}
+.modal-content {
+  min-height:100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0; 
+}
+.modal-body {
+  position:absolute;
+  top:45px; /** height of header **/
+  bottom:45px;  /** height of footer **/
+  left:0;
+  right:0;
+  overflow-y:auto;
+}
+.modal-footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
 
+.modal {
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  right: 0;
+  max-width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
 
+.close span {
+  font-size: 40px;
+}
 
 
 
@@ -656,6 +746,10 @@ a {
   .nav.bye li, .nav.bye a {
     padding-left: .2rem;
   }
+  
+	.main-button {
+		font-size: 0.9rem;
+	}
 
 }
 
@@ -915,6 +1009,13 @@ footer .container.mt-4 {
   padding-left: 0;
 }
 
+.main-button {
+  display: table !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 
 }
 
@@ -1009,6 +1110,14 @@ footer .container.mt-4 {
 .row.text-left p {
   font-size: 11px;
   margin-bottom: 0;
+}
+
+.head-text {
+  font-size: 14px;
+}
+
+.close span {
+  font-size: 20px;
 }
 
 
