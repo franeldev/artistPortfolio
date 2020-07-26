@@ -145,7 +145,7 @@ p, span {
 
 
 
-.container-fluid.pt {
+.container-fluid.ptn {
   position: relative;
   width: 100%;
   background: #F7931E;
@@ -174,7 +174,7 @@ p, span {
   margin-top: 20px;
 }
 
-.container-fluid.pt h4 {
+.container-fluid.ptn h4 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: normal;
@@ -186,7 +186,7 @@ p, span {
 }
 
 
-.container-fluid.pt p {
+.container-fluid.ptn p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
@@ -195,7 +195,7 @@ p, span {
   /* or 169% */
   color: #050505;
 }
-.container-fluid.pt a {
+.container-fluid.ptn a {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
@@ -585,12 +585,12 @@ a {
 .order-2 {
   order: 1;
 } */
-.container-fluid.pt h4 {
+.container-fluid.ptn h4 {
   font-size: 2.551875vw;
   line-height: 32px;
 }
 
-.container-fluid.pt a {
+.container-fluid.ptn a {
   font-size: 17px;
   line-height: 17px;
 }
@@ -599,7 +599,7 @@ a {
   line-height: 80px;
 }
 
-.container-fluid.pt {
+.container-fluid.ptn {
   height: 45.5625vw;
 }
 
@@ -706,25 +706,25 @@ a {
   width: 90%;
 }
 
-.container-fluid.pt .col-xs-12 {
+.container-fluid.ptn .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
   padding-bottom: 30px;
 }
 
-.container-fluid.pt .col-md-6 {
+.container-fluid.ptn .col-md-6 {
   flex: 0 0 100%;
   max-width: 100%;
   padding-bottom: 3rem;
 }
 
-.container-fluid.pt {
+.container-fluid.ptn {
   height: 42.5625em !important;
   bottom: 2vw;
   margin-bottom: 48px;
 }
 
-.container-fluid.pt h4 {
+.container-fluid.ptn h4 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
@@ -739,7 +739,7 @@ a {
   padding-top: 45px;
 }
 
-.container-fluid.pt p {
+.container-fluid.ptn p {
   font-size: 14px;
   line-height: 27px;
   padding-top: 2rem;
@@ -952,15 +952,15 @@ footer .container.mt-4 {
   padding-top: 5%;
 }
 
-.container-fluid.pt h4 {
+.container-fluid.ptn h4 {
   font-size: 18px;
   line-height: 32px;
 }
 
-.container-fluid.pt a {
+.container-fluid.ptn a {
   font-size: 14px;
 }
-.container-fluid.pt p {
+.container-fluid.ptn p {
   font-size: 12px;
 }
 .row.event {

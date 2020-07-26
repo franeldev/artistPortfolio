@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/Artist-Portfolio.css">
-  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <title>Artist-Portfolio</title>
 </head>
 <body> 
@@ -69,11 +70,11 @@
     <div class="container-fluid TairoImg1">
       <div class="row">
           <div class="col-md-6 sec1">
-              <h2>Tairo 
+              <h2  data-aos="fade-down" data-aos-duration="2000">Tairo 
                 <span>
                 Mul<span>ani</span>
               </span>
-              </h2>
+              </h2  data-aos="fade-down" data-aos-duration="2000">
               <p>AWARD WINNING ARTIST</span></a></p> 
           </div>
           <div class="col-md-6 TairoImg">
@@ -83,33 +84,28 @@
     </div>    
 
     <!--- Jumbotron -->
-    <div id="about" class="container-fluid pt">
-      <div class="row jumbotron">
-          <div class="container padding">
-          <div class="row padding">
-              <div class="col-xs-12 col-sm-12 col-md-6">
-                  <div class="row">
-                      <div class="col-md-12">
-                        <h4>Tairo is an award winning artist based in New York.</h4>
-                          <p>Tairo Mulani’s art "negotiates the cultural terrain between his adopted home in America and his native Kenya, creating collage and photo transfer-based paintings that expose the challenges of occupying these two worlds".</p> 
-                              <a href="" class="text-left">Read More <span> > </span></a>
-                      </div>
-                          <br>  
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <img src="img/winningArtist.svg" alt="" class="img-fluid euro">
-              </div>
-          </div>
-          </div>
-      </div>
-      </div>
+    <div id="about" class="container-fluid ptn">
+        <div class="row padding jumbotron">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <h4>Tairo is an award winning artist based in New York.</h4>
+                        <p>Tairo Mulani’s art "negotiates the cultural terrain between his adopted home in America and his native Kenya, creating collage and photo transfer-based paintings that expose the challenges of occupying these two worlds".</p> 
+                            <a href="" class="text-left">Read More <span> > </span></a>
+                    </div>
+                        <!-- <div class="col-md-6">
+                            <img src="img/winningArtist.svg" alt="" class="img-fluid">
+                        </div>   -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--- Event Section -->
     <div id="frames" class="container-fluid">
     <div class="row event">
         <div class="col-12">
-            <h1 class="dispay-4 text-left">Frames</h1>
+            <h1 class="dispay-4 text-left" data-aos="fade-down" data-aos-duration="2000">Frames</h1>
         </div>
     </div>
     </div>
@@ -123,9 +119,9 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ul>
       <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-aos="flip-left" data-aos-duration="2000">
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6"  data-aos="fade-up-right" data-aos-duration="2000">
                       <img src="img/raftImg0.svg" class="img-fluid d-block w-100">
                   </div>
                   <div class="col-md-6">
@@ -137,7 +133,7 @@
           </div>
           <div class="carousel-item">
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6" data-aos="flip-right" data-aos-duration="2000"> 
                       <img src="img/raftImg0.svg" class="img-fluid d-block w-100">
                   </div>
                   <div class="col-md-6">
@@ -149,7 +145,7 @@
           </div>
           <div class="carousel-item">
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="2000">
                       <img src="img/raftImg0.svg" class="img-fluid d-block w-100">
                   </div>
                   <div class="col-md-6">
@@ -161,7 +157,7 @@
           </div>
           <div class="carousel-item">
               <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6" data-aos="zoom-in-down" data-aos-duration="2000">
                       <img src="img/raftImg0.svg" class="img-fluid d-block w-100">
                   </div>
                   <div class="col-md-6">
@@ -197,14 +193,16 @@
     <div id="exhibitions" class="container-fluid">
       <div class="row event exhibitions">
           <div class="col-12">
-              <h1 class="display-4 text-left">Exhibitions</h1>
+              <h1 class="display-4 text-left" data-aos="fade-down" data-aos-duration="2000">Exhibitions</h1>
           </div>
       </div>
       </div>
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" style="overflow-x: hidden;">
       <div class="row text-left">
-          <div  data-aos="fade-right" data-aos-duration="2000" class="col-md-6">
+        <div class="col-md-12">
+          <div class="row">
+          <div data-aos="fade-right" data-aos-duration="2000" class="col-md-6" style="overflow-x: hidden;">
               <img src="img/RennaisanceWorld.svg" class="img-fluid">     
               <h5 class="pt-4 align-left">
                 The Rennaisance World
@@ -219,7 +217,7 @@
                 NIKE ART GALLERY
               </p>
           </div>
-          <div data-aos="fade-left" data-aos-duration="2000" class="col-md-6">
+          <div data-aos="fade-left" data-aos-duration="2000" class="col-md-6" style="overflow-x: hidden;">
               <img src="img/CultureReset.svg" class="img-fluid">     
               <h5 class="pt-4 align-left">
                 Culture Reset
@@ -264,6 +262,8 @@
                 NIKE ART GALLERY
               </p>
           </div>
+        </div>
+        </div>
       </div>
       </div>
 
@@ -353,14 +353,14 @@
             <div class="row mx-0 align-self-left d-md-flex mb-3">
               <h5>Sign up for my newsletter for latest updates</h5>
             </div>
-            <div class="input-group md-form form-sm form-2 pl-0">
+            <div class="input-group md-form form-sm form-2 pl-0" data-aos="fade-down" data-aos-duration="2000">
               <input class="form-control my-0 py-1" type="text" placeholder="Enter your email address" aria-label="Search">
               <div class="input-group-append">
                 <span class="input-group-text" id="basic-text1"><img src="img/footersend.svg" alt="sendbtn"></span>
               </div>
             </div>
             <ul class="footerlogo nav flex-column order-4 order-md-4 align-self-left mt-md-5">
-              <div class="row mx-0 align-items-center d-md-flex mb-2">
+              <div class="row mx-0 align-items-center d-md-flex mb-2"  data-aos="flip-left" data-aos-duration="2000">
                 <li><a href=""><img src="img/footerlogo.svg" alt="footerlogo"></a></li>
               </div> 
             </ul>
@@ -390,12 +390,12 @@
     crossorigin="anonymous"></script>
     
     <!-- AOS JS -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
     AOS.init();
       AOS.init({
         easing: 'ease-in-out-sine'
       });
-    </script> -->
+    </script>
 </body>
 </html>
